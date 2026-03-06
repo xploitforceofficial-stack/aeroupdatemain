@@ -10,7 +10,7 @@ local Window = Libary:MakeWindow({
 
 Window:AddMinimizeButton({
     Button = {
-        Image = 'rbxassetid://86947671588684',
+        Image = 'rbxassetid://82596617502490',
         BackgroundTransparency = 0,
         Size = UDim2.new(0, 35, 0, 35),
     },
@@ -19,7 +19,7 @@ Window:AddMinimizeButton({
     },
 })
 
-local InfoTab = Window:MakeTab({ Title = "Info", Icon = "rbxassetid://15309138473" })
+local InfoTab = Window:MakeTab({ Title = "Info", Icon = "rbxassetid://82596617502490" })
 
 InfoTab:AddSection({ "Information Script" })
 InfoTab:AddParagraph({ "Owner / Developer:", "Vinzee" })
@@ -35,9 +35,7 @@ InfoTab:AddButton({
 })
 
 InfoTab:AddSection({ "Community Info" })
-InfoTab:AddParagraph({ "Community Name:", "Tabiunfo" })
-InfoTab:AddParagraph({ "Community Logo ID:", "107642478943791" })
-InfoTab:AddParagraph({ "Note:", "Community logo is inside the info tab" })
+InfoTab:AddParagraph({ "XploitForce", "Is a xploiter roblox community" })
 
 InfoTab:AddSection({ "Rejoin" })
 InfoTab:AddButton({
